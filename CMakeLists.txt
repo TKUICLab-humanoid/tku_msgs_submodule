@@ -74,6 +74,7 @@ add_message_files(DIRECTORY msg/Localization
 	RobotPos.msg
 	SetGoalPoint.msg
 	SetRobotPos.msg
+	GetVelocity.msg
 ) 
 ##Ros2MultiCommunication##
 add_message_files(DIRECTORY msg/Ros2MultiCommunication
