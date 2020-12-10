@@ -23,6 +23,7 @@ add_message_files(DIRECTORY msg/vision
  	ObjectList.msg  
 	DrawImage.msg
 	HSVValue.msg
+	BGRValue.msg
 	LabelModelObjectList.msg 
 	Distance.msg
 	ImageLengthData.msg
@@ -88,10 +89,12 @@ add_message_files(DIRECTORY msg/Ros2MultiCommunication
 ##imageprocess##
 add_service_files(DIRECTORY srv/vision 
 	FILES 
-
+	
+	BGRInfo.srv
 	BuildModel.srv
 	HSVInfo.srv
 	SaveHSV.srv
+	
 )
 ##motionpackage##
 add_service_files(DIRECTORY srv/motionpackage 
