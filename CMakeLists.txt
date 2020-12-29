@@ -35,6 +35,7 @@ add_message_files(DIRECTORY msg/vision
 	FeaturePoint.msg
 	Cooridinate.msg
 	SoccerDataList.msg
+	HoughValue.msg
 ) 
 ##motionpackage##
 add_message_files(DIRECTORY msg/motionpackage
@@ -91,6 +92,7 @@ add_service_files(DIRECTORY srv/vision
 	FILES 
 	
 	BGRInfo.srv
+	HoughInfo.srv
 	BuildModel.srv
 	HSVInfo.srv
 	SaveHSV.srv
