@@ -80,7 +80,7 @@ add_message_files(DIRECTORY msg/Ros2MultiCommunication
    	FILES 
 
 	WitchData.msg
-	ObjectInfo.msg
+	RCObjectInfo.msg
 	CharacterInfo.msg
 	Ros2MultiCommunication.msg
 ) 

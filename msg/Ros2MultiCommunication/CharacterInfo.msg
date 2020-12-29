@@ -5,5 +5,5 @@ float32 y
 bool exist_flag
 WitchData theta
 WitchData dist
-ObjectInfo[] object
-ObjectInfo[] enemy
+RCObjectInfo[] object
+RCObjectInfo[] enemy
