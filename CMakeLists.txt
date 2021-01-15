@@ -36,6 +36,7 @@ add_message_files(DIRECTORY msg/vision
 	Cooridinate.msg
 	SoccerDataList.msg
 	HoughValue.msg
+	AllLineData.msg
 ) 
 ##motionpackage##
 add_message_files(DIRECTORY msg/motionpackage

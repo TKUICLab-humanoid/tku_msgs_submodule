@@ -1,5 +1,5 @@
-float32 angle
-int16 length
+float32 Line_theta
+int16 Line_length
 Cooridinate start_point
 Cooridinate end_point
 Cooridinate center_point
