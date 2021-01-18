@@ -39,7 +39,7 @@ add_message_files(DIRECTORY msg/vision
 add_message_files(DIRECTORY msg/motionpackage
    	FILES 
 
-	callback.msg imageprocess
+	callback.msg
 	HeadPackage.msg
 	Parameter_message.msg
 	Walking_message.msg
