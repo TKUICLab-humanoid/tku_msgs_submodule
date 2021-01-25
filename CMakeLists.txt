@@ -12,7 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
 )
 ##for kidsizebase send to strategy##
-##imageprocess##
+##imageprocess/vision##
 add_message_files(DIRECTORY msg/vision
    	FILES 
 
@@ -39,7 +39,7 @@ add_message_files(DIRECTORY msg/vision
 add_message_files(DIRECTORY msg/motionpackage
    	FILES 
 
-	callback.msg 
+	callback.msg
 	HeadPackage.msg
 	Parameter_message.msg
 	Walking_message.msg
@@ -83,8 +83,14 @@ add_message_files(DIRECTORY msg/Ros2MultiCommunication
 	RCObjectInfo.msg
 	CharacterInfo.msg
 	Ros2MultiCommunication.msg
-) 
-##imageprocess##
+)
+##simmotionpackage##
+add_message_files(DIRECTORY msg/simmotionpackage
+   	FILES 
+
+	IKinfo_message.msg
+)
+##imageprocess/vision##
 add_service_files(DIRECTORY srv/vision 
 	FILES 
 
