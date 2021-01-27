@@ -102,6 +102,7 @@ add_service_files(DIRECTORY srv/vision
 add_service_files(DIRECTORY srv/motionpackage 
 	FILES 
 
+	CheckSector.srv
 	ReadMotion.srv
 	SendHandSpeed.srv
 )
