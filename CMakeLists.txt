@@ -50,6 +50,7 @@ add_message_files(DIRECTORY msg/motionpackage
 	SandHandSpeed.msg
 	SensorPackage.msg
 	SensorSet.msg
+	PointData.msg 
 ) 
 ##usb_cam##
 add_message_files(DIRECTORY msg/usb_cam
