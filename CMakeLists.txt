@@ -71,6 +71,7 @@ add_message_files(DIRECTORY msg/walkinggait
 add_message_files(DIRECTORY msg/Localization
    	FILES 
 
+	LocalizationPos.msg
 	RobotPos.msg
 	SetGoalPoint.msg
 	SetRobotPos.msg
