@@ -1,7 +1,9 @@
 string which_robot
+float32 weight
 string name
 bool exist_flag
 WhichData global
 WhichData local
 RCObjectInfo[] object
+RCObjectInfo[] partner
 RCObjectInfo[] enemy
