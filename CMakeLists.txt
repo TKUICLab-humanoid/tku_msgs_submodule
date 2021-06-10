@@ -37,6 +37,7 @@ add_message_files(DIRECTORY msg/vision
 	SoccerDataList.msg
 	HoughValue.msg
 	AllLineData.msg
+        Cameraparam.msg
 ) 
 ##motionpackage##
 add_message_files(DIRECTORY msg/motionpackage
