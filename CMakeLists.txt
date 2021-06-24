@@ -18,21 +18,22 @@ add_message_files(DIRECTORY msg/vision
 
 	ButtonColorForm.msg
 	CameraId.msg
-	ColorData.msg
 	ColorArray.msg
- 	ObjectList.msg  
-	DrawImage.msg
-	HSVValue.msg
-	LabelModelObjectList.msg 
-	Distance.msg
-	ImageLengthData.msg
-	SoccerData.msg
-	ImageProcess.msg
-	ObservationData.msg
-	Distance.msg
-	LineData.msg
-	FeaturePoint.msg
+	ColorData.msg
 	Cooridinate.msg
+	DemoData.msg
+	Distance.msg
+	DrawImage.msg
+	FeaturePoint.msg
+	HSVValue.msg
+	ImageLengthData.msg
+	ImageProcess.msg
+	LabelModelObjectList.msg
+	LineData.msg
+	ObjectData.msg
+ 	ObjectList.msg
+	ObservationData.msg
+	SoccerData.msg
 	SoccerDataList.msg
 ) 
 ##motionpackage##
@@ -75,6 +76,7 @@ add_message_files(DIRECTORY msg/Localization
 	RobotPos.msg
 	SetGoalPoint.msg
 	SetRobotPos.msg
+	SoccerPos.msg
 ) 
 ##Ros2MultiCommunication##
 add_message_files(DIRECTORY msg/Ros2MultiCommunication
