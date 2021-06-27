@@ -18,6 +18,7 @@ add_message_files(DIRECTORY msg/vision
 
 	ButtonColorForm.msg
 	CameraId.msg
+	Cameraparam.msg
 	ColorArray.msg
 	ColorData.msg
 	Cooridinate.msg
