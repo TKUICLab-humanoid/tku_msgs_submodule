@@ -10,4 +10,5 @@ float32 BASE_Default_Z
 float32 Y_Swing_Shift
 float32 X_Swing_COM
 float32 BASE_LIFT_Z
+bool Stand_Balance
 B_SplineParam B_SplineParam
