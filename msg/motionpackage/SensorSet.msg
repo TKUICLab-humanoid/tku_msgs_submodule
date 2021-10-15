@@ -1,11 +1,9 @@
+int32 sensor_P
+int32 sensor_I
+int32 sensor_D
 int32 Roll
 int32 Pitch
 int32 Yaw
-int32 GainRoll
-int32 GainPitch
-int32 GainKP
-int32 GainKD
-bool DesireSet
-bool IMUReset
-bool ForceState
-bool GainSet
+int32 sup_f
+int32 nsup_f
+int32 sensor_modeset
