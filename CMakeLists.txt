@@ -47,6 +47,7 @@ add_message_files(DIRECTORY msg/motionpackage
 	HeadPackage.msg
 	PIDpackage.msg
 	Parameter_message.msg
+	PIDpackage.msg
 	Walking_message.msg
 	InterfaceSend2Sector.msg
 	SaveMotion.msg
