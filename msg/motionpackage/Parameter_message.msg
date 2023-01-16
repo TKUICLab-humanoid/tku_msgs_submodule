@@ -8,7 +8,7 @@ int32 Sample_Time
 float64 OSC_LockRange 
 float64 BASE_Default_Z
 int32 Y_Swing_Shift
-int32 X_Swing_COM
-int32 BASE_LIFT_Z
+float64 X_Swing_COM
+float64 BASE_LIFT_Z
 bool Stand_Balance
 B_SplineParam B_SplineParam
