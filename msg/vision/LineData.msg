@@ -1,7 +1,0 @@
-float32 Line_theta
-int16 Line_length
-Cooridinate start_point
-Cooridinate end_point
-Cooridinate center_point
-float32 relative_distance
-Cooridinate Nearest_point

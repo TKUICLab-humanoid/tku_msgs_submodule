@@ -1,7 +1,0 @@
-int16 brightness
-int16 contrast
-int16 saturation
-int16 white_balance
-bool auto_white_balance
-bool auto_exposure 
-bool auto_Backlight_Compensation                 
