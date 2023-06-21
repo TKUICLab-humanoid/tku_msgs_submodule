@@ -34,6 +34,7 @@ add_message_files(DIRECTORY msg/vision
 	FeaturePoint.msg
 	Cooridinate.msg
 	SoccerDataList.msg
+	YoloData.msg
 ) 
 ##motionpackage##
 add_message_files(DIRECTORY msg/motionpackage
