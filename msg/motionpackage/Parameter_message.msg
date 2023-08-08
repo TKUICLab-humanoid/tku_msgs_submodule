@@ -10,5 +10,9 @@ float64 BASE_Default_Z
 float64 Y_Swing_Shift
 float64 X_Swing_COM
 float64 BASE_LIFT_Z
+float64 rightfoot_shift_z
+float64 com_y_swing
+float64 now_stand_height
+float64 now_com_height
 bool Stand_Balance
 B_SplineParam B_SplineParam
